@@ -1,5 +1,19 @@
 > _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
+
+# Analyseren
+
+Ik had al node op mijn systeem staan met versie 19.3. 
+Met `npm install` in de terminal van het project, haalde ik express en alle packages binnen. 
+En door `npm start` heb ik de server opgestart, welke op localhost op te roepen is.
+
+# Bouwen
+
+Voor de bouwfase heb ik mijn visitekaartje van sprint 1 geimplementeerd in dit project. Hiervoor heb ik in de `index.ejs` mijn bestaande code geplaatst, exclusief het body element. Deze opent namelijk in het `head.ejs` en sluit in het `foot.ejs` bestand.
+Daarnaast heb ik binnen de public map een images map aangemaakt, waarin in de afbeeldingen plaats van mijn visitekaartje.
+Deze kan ik nu aanroepen via de path `/images/afbeelding.jpg`, omdat de `index.ejs` naast het public mapje zit.
+
+
 # Titel
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
 
