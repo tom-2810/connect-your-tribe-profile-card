@@ -18,6 +18,10 @@ Deze kan ik nu aanroepen via de path `/images/afbeelding.jpg`, omdat de `index.e
 Nu ik alle HTML, CSS en content van mijn statische visitekaartje heb vertaald naar dit nieuwe project, gebruik ik `npm start` om het resultaat te bekijken.
 ![Schermafbeelding_20230206_124639](https://user-images.githubusercontent.com/112861614/216963536-c257e98d-bab1-4a44-b7eb-acc9b8d43424.png)
 
+# 2 Analyseren
+
+Voor het tweede onderdeel van dit project ga ik mijn visitekaartje met Node/Express/EJS gebaseerd op een REST API met JSON opnieuw ontwikkelen. Ook ga ik het visitekaartje verbeteren op gebied van code en ontwerp.
+Ook ga ik een project board op GitHub maken, zodat ik gestructureerd issues kan afhandelen.
 
 # Titel
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
