@@ -16,6 +16,8 @@ Deze kan ik nu aanroepen via de path `/images/afbeelding.jpg`, omdat de `index.e
 # Testen
 
 Nu ik alle HTML, CSS en content van mijn statische visitekaartje heb vertaald naar dit nieuwe project, gebruik ik `npm start` om het resultaat te bekijken.
+![Schermafbeelding_20230206_124639](https://user-images.githubusercontent.com/112861614/216963536-c257e98d-bab1-4a44-b7eb-acc9b8d43424.png)
+
 
 # Titel
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
