@@ -13,6 +13,9 @@ Voor de bouwfase heb ik mijn visitekaartje van sprint 1 geimplementeerd in dit p
 Daarnaast heb ik binnen de public map een images map aangemaakt, waarin in de afbeeldingen plaats van mijn visitekaartje.
 Deze kan ik nu aanroepen via de path `/images/afbeelding.jpg`, omdat de `index.ejs` naast het public mapje zit.
 
+# Testen
+
+Nu ik alle HTML, CSS en content van mijn statische visitekaartje heb vertaald naar dit nieuwe project, gebruik ik `npm start` om het resultaat te bekijken.
 
 # Titel
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
