@@ -1,39 +1,50 @@
 <%- include('./partials/head') %>
 
   <div id="personal-card">
-    <section class="profile">
-      <img class="profile-picture" src="<%= member.avatar %>" alt="" width="150" height="150">
-      <h1>
-        <%= `${member.name} ${member.surname}`%>
-      </h1>
-      <span>A.K.A.</span>
-      <h2>
-        <%= member.nickname %>
-      </h2>
-    </section>
+    <header>
+      <section class="name">
+        <h1>Tom Poortman</h1>
+        <h2>@Floepert</h2>
+      </section>
+      <div class="profile-image">
+        <img src="<%= member.avatar %>" alt="">
+        <p class="emoji">👋</p>
+      </div>
+    </header>
 
-    <section class="info">
-      <section class="block" id="github">
+    <main>
+      <section id="github">
         <h3>GitHub</h3>
-        <div class="content">
-          <img class="profile-picture" src="<%= member.avatar %>" alt="" width="50" height="50">
+        <div class="block">
+          <img src="images/github_icon.png" alt="">
           <p>
-            <%= member.gitHubHandle %>
+            <%= member.name %>
           </p>
-          <a href="">Visit profile</a>
+          <a href="#">
+            <p>Visit</p>
+          </a>
         </div>
       </section>
 
-      <section class="block" id="bio">
+      <section id="github">
         <h3>Bio</h3>
-        <div class="content">
-          <p>Op het moment heb ik al wat kennis van HTML, CSS en JavaScript, maar wil nog véél meer leren! Daarnaast
-            vind ik het leuk om formule 1, films en series te kijken. Mijn favoriete spel is nu (toepasselijk) F1
-            Manager 22, waar je speelt als teambaas. Mijn favoriete gerecht is een pannenkoek met spek en stroop lekker
-            man.</p>
+        <div class="block">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora amet ducimus iste suscipit, est veniam
+            expedita vitae excepturi fugit tempore modi reiciendis sunt voluptates incidunt consequatur sint animi
+            nihil ipsum.</p>
         </div>
       </section>
-    </section>
+    </main>
+
+
+    <footer>
+      <img src="images/svg/fake-qr-code.svg" alt="">
+      <div class="links">
+        <img src="images/svg/linkedin.svg" alt="">
+        <img src="images/svg/mail.svg" alt="">
+      </div>
+    </footer>
+
   </div>
 
   <%- include('./partials/foot') %>
