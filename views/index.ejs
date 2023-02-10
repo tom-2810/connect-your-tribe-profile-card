@@ -1,50 +1,63 @@
 <%- include('./partials/head') %>
 
-  <div id="personal-card">
-    <header>
-      <section class="name">
-        <h1>Tom Poortman</h1>
-        <h2>@Floepert</h2>
-      </section>
-      <div class="profile-image">
-        <img src="<%= member.avatar %>" alt="">
-        <p class="emoji">👋</p>
-      </div>
-    </header>
-
-    <main>
-      <section id="github">
-        <h3>GitHub</h3>
-        <div class="block">
-          <img src="images/github_icon.png" alt="">
-          <p>
+  <div class="card">
+    <div id="personal-card">
+      <header>
+        <section class="name">
+          <h1>
             <%= member.name %>
-          </p>
-          <a href="#">
-            <p>Visit</p>
+              <%= member.surname %>
+          </h1>
+          <h2>@<%= member.nickname %>
+          </h2>
+        </section>
+        <div class="profile-image">
+          <img src="<%= member.avatar %>" alt="">
+          <p class="emoji">👋</p>
+        </div>
+      </header>
+
+      <main>
+        <section id="github">
+          <h3>GitHub</h3>
+          <div class="block">
+            <img src="images/github_icon.png" alt="">
+            <p>
+              <%= member.gitHubHandle %>
+            </p>
+            <a href="https://github.com/<%= member.gitHubHandle %>">
+              <p>Visit</p>
+            </a>
+          </div>
+        </section>
+
+        <section id="bio">
+          <h3>Bio</h3>
+          <div class="block">
+            <p>
+              <%= member.bio %>
+            </p>
+          </div>
+        </section>
+      </main>
+
+
+      <footer>
+        <img src="images/svg/fake-qr-code.svg" alt="">
+        <div class="links">
+          <!-- <a href="">
+            <img src="images/svg/linkedin.svg" alt="">
+          </a> -->
+          <a href="mailto:<%= member.name %>.<%= member.surname %>@hva.nl">
+            <img src="images/svg/mail.svg" alt="">
           </a>
         </div>
-      </section>
+      </footer>
 
-      <section id="github">
-        <h3>Bio</h3>
-        <div class="block">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora amet ducimus iste suscipit, est veniam
-            expedita vitae excepturi fugit tempore modi reiciendis sunt voluptates incidunt consequatur sint animi
-            nihil ipsum.</p>
-        </div>
-      </section>
-    </main>
+    </div>
 
-
-    <footer>
-      <img src="images/svg/fake-qr-code.svg" alt="">
-      <div class="links">
-        <img src="images/svg/linkedin.svg" alt="">
-        <img src="images/svg/mail.svg" alt="">
-      </div>
-    </footer>
-
+    <div id="backdrop-card"></div>
   </div>
+
 
   <%- include('./partials/foot') %>
