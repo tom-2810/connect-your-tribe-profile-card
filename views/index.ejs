@@ -35,7 +35,7 @@
           <h3>Bio</h3>
           <div class="block">
             <p>
-              <%= member.bio %>
+              <%= member.bio.html %>
             </p>
           </div>
         </section>
@@ -45,9 +45,9 @@
       <footer>
         <img src="images/svg/fake-qr-code.svg" alt="">
         <div class="links">
-          <!-- <a href="">
+          <a href="<%= member.website %>">
             <img src="images/svg/linkedin.svg" alt="">
-          </a> -->
+          </a>
           <a href="mailto:<%= member.name %>.<%= member.surname %>@hva.nl">
             <img src="images/svg/mail.svg" alt="">
           </a>
