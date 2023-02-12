@@ -21,7 +21,35 @@ Nu ik alle HTML, CSS en content van mijn statische visitekaartje heb vertaald na
 # 2 Analyseren
 
 Voor het tweede onderdeel van dit project ga ik mijn visitekaartje met Node/Express/EJS gebaseerd op een REST API met JSON opnieuw ontwikkelen. Ook ga ik het visitekaartje verbeteren op gebied van code en ontwerp.
-Ook ga ik een project board op GitHub maken, zodat ik gestructureerd issues kan afhandelen.
+Daarnaast ga ik een project board op GitHub maken, zodat ik gestructureerd issues kan afhandelen.
+
+Voor dit project hadden we de WHOIS API aangeboden gekregen. Ik had nog nooit eerder gewerkt met APIs en dacht dat het best ingewikkeld was. Er stond al wat code klaar en door middel van de workshops kon ik hier wat dingen aan toe voegen. Eerst heb ik wat gegevens geplaatst op de database via het admin paneel.
+
+# Ontwerpen
+
+Voor de ontwerpfase heb ik eerst gekeken naar mijn visitekaartje uit sprint 1. Wat wilde ik behouden en wat juist niet? Bleef ik bij hetzelfde ontwerp/layout of wilde ik iets nieuws proberen. Door een schets te maken kon ik hiertussen kiezen.
+
+![20230208_130539](https://user-images.githubusercontent.com/112861614/218322274-d7d7e878-557f-44d5-bab1-67f26243fd4f.jpg)
+
+En in Figma ziet dit ontwerp er zo uit:
+
+![image](https://user-images.githubusercontent.com/112861614/218322320-b6af99e0-3597-4baf-9628-adc3d01d3b9b.png)
+
+Een simpeler en somber ontwerp. Ik vond het wel wat hebben, maar het was het toch net niet helemaal.
+Vervolgens heb ik op Pinterest wat inspiratie proberen op te doen. Uiteindelijk kwam ik terecht bij een ontwerp voor een visitekaartje die ik had gemaakt voor de SKC, welke op mijn codepen staat.
+
+![image](https://user-images.githubusercontent.com/112861614/218322490-463af281-378b-4c4a-b12b-68c1d6e45f71.png)
+
+![image](https://user-images.githubusercontent.com/112861614/218322518-c463dae4-759d-4404-bd31-39b96b524e26.png)
+
+Hierop heb ik mijn nieuwe visitekaartje gebasseerd. En dit is het resultaat in Figma. Ook heb ik een beetje geëxirimenteerd met kleurgebruik, maar vond het eerst ontwerp toch wat netter. Ik wilde namelijk een duidelijk en bruikzaam visitekaartje maken, die ik makkelijk kon delen met anderen. Dit wilde ik bereiken door middel van een qr-code.
+
+![image](https://user-images.githubusercontent.com/112861614/218322671-b87a0dbb-eb19-48bb-a516-29eac6b81561.png)
+
+![image](https://user-images.githubusercontent.com/112861614/218322692-b903feef-f294-45d1-89ea-dbbe13c9056e.png)
+
+![image](https://user-images.githubusercontent.com/112861614/218322717-7293c1fd-e65e-49af-bfc6-a758f96208e2.png)
+
 
 # Titel
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
